@@ -32,6 +32,15 @@ Ouvrez votre navigateur et accédez à l'adresse où vous avez cloné le projet,
 
 Utilisez les options de filtrage et de tri pour naviguer dans vos projets locaux.
 
+## Rendu
+![image](https://github.com/Lilian6990/Gestionnaire-serveur-local/assets/75953570/bb287aa8-6470-48a1-82c9-191a18135126)
+
+![image](https://github.com/Lilian6990/Gestionnaire-serveur-local/assets/75953570/24c23441-4030-43ba-b576-481350101b35)
+
+![image](https://github.com/Lilian6990/Gestionnaire-serveur-local/assets/75953570/31a092bb-2d41-4272-9453-a18105b4d2d2)
+
+![image](https://github.com/Lilian6990/Gestionnaire-serveur-local/assets/75953570/454fc89f-d259-4a87-a5d2-1f0a0f6364ef)
+
 ## Contribuer
 
 Les contributions sont les bienvenues ! Si vous souhaitez contribuer, veuillez suivre ces étapes :
