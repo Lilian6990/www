@@ -1,0 +1,205 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 20px;
+}
+
+.container, .server-details {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+h1, .server-details h2 {
+    color: #333;
+    font-size: 24px;
+}
+.server-details {
+    background-color: #f0f0f0; /* Couleur de fond légère */
+    border-left: 5px solid #007bff; /* Bordure latérale pour un aspect distinct */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+
+}
+
+.server-details p {
+    margin: 10px 0; /* Espacement entre les paragraphes */
+    padding: 5px; /* Un peu d'espace interne pour la respiration */
+    font-size: 14px; /* Taille de police ajustée */
+}
+
+.server-details h2 {
+    color: #0056b3; /* Couleur plus foncée pour le titre */
+    margin-bottom: 15px; /* Espacement sous le titre */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    margin: 8px 0;
+    background-color: #e9e9e9;
+    border-radius: 6px;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+a.back-link {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+a.back-link:hover {
+    background-color: #0056b3;
+}
+
+
+form > div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px; /* Ajustez l'espacement selon vos préférences */
+}
+form {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+form label {
+    margin-right: 10px; /* Ajuste l'espace à droite du label */
+    color: #333; /* Couleur du texte */
+    font-size: 16px; /* Taille de la police */
+    font-weight: 500; /* Poids de la police */
+}
+
+/* Styliser le select */
+form select {
+    padding: 8px 12px; /* Padding interne pour un meilleur rendu */
+    border-radius: 4px; /* Bordures arrondies */
+    border: 1px solid #ccc; /* Bordure légère */
+    background-color: #f8f8f8; /* Couleur de fond */
+    cursor: pointer; /* Change le curseur pour indiquer que c'est cliquable */
+    font-size: 14px; /* Taille de la police */
+}
+
+/* Effet au survol sur le select */
+form select:hover {
+    background-color: #e7e7e7; /* Légère modification de la couleur de fond au survol */
+}
+
+/* Améliorer l'apparence des options dans le menu déroulant */
+form select option {
+    padding: 5px 0; /* Espacement pour les options */
+}
+
+input[type=submit] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; /* Ajoutez de l'espace au-dessus du bouton 'Filtrer' */
+    flex-basis: 100%;
+}
+
+input[type=submit]:hover {
+    background-color: #0056b3;
+}
+
+input[type=checkbox] {
+    margin-right: 5px;
+}
+
+label {
+    margin-right: 20px;
+}
+#all + label {
+    margin-right: 20px; /* Espacement supplémentaire après "Tous" pour une meilleure séparation visuelle */
+}
+.projects-list {
+    display: flex;
+    flex-direction: column;
+}
+.project-item {
+    display: grid;
+    grid-template-columns: auto 1fr auto auto;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+    background-color: #e9e9e9;
+    border-radius: 6px;
+    margin-bottom: 8px;
+}
+
+.project-item img {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+.project-name a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+}
+.project-name a:hover {
+    text-decoration: underline;
+}
+.project-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}
+
+.project-details {
+    margin-left: auto;
+    text-align: right;
+    font-size: 12px;
+    margin: 0 10px;
+}
+.project-size, .project-modified {
+    font-size: 12px;
+    text-align: right;
+    margin: 0 10px;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .container, .server-details {
+        padding: 15px;
+    }
+
+    h1, .server-details h2 {
+        font-size: 20px;
+    }
+}
