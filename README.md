@@ -1,34 +1,32 @@
-# Gestionnaire-serveur-local
-# Répertoire des Projets Locaux
+# Gestionnaire de Projets Locaux
 
 Ce projet est une application web PHP simple qui permet de naviguer dans les fichiers et dossiers d'un répertoire spécifique sur le serveur. Il offre des fonctionnalités de tri et de filtrage pour faciliter la recherche et l'organisation des projets locaux.
 
 ## Fonctionnalités
 
-- **Navigation dans les dossiers** : Parcourez les dossiers de votre serveur pour trouver des projets ou des fichiers spécifiques.
-- **Filtrage par type de fichier** : Filtrez les résultats pour afficher uniquement les types de fichiers que vous souhaitez (par exemple, PHP, HTML, CSS, JS, images).
-- **Tri des projets** : Triez les fichiers et dossiers par nom, type, ou date de modification pour une meilleure organisation.
+- **Navigation dans les dossiers** : Parcourez facilement les dossiers de votre serveur pour trouver des projets ou des fichiers spécifiques.
+- **Filtrage par type de fichier** : Filtrez les résultats pour n'afficher que les types de fichiers souhaités (par exemple, PHP, HTML, CSS, JS, images).
+- **Tri des projets** : Triez les fichiers et dossiers par nom, type ou date de modification pour une organisation optimale.
 
 ## Prérequis
 
-Pour exécuter cette application, vous aurez besoin de :
+Pour exécuter cette application, assurez-vous de disposer de :
 
-- Serveur web avec PHP (par exemple, Apache, Nginx)
-- Accès au système de fichiers du serveur
+- Un serveur web avec support PHP (Apache recommandé)
+- Accès en lecture aux répertoires et fichiers du serveur que vous souhaitez explorer
 
 ## Installation
 
-1. Clonez ce dépôt sur votre serveur web :
-git clone https://github.com/Lilian6990/Gestionnaire-serveur-local.git
+1. Clonez ce dépôt dans le répertoire racine de votre serveur web :
+   ```bash
+   git clone https://github.com/Lilian6990/www.git 
 
-2. Naviguez dans le répertoire du projet :
-cd votre_repo
 
-3. Assurez-vous que votre serveur web a les permissions nécessaires pour lire les dossiers et fichiers que vous souhaitez explorer.
+2. Assurez-vous que votre serveur web a les permissions nécessaires pour lire les dossiers et fichiers que vous souhaitez explorer.
 
 ## Utilisation
 
-Ouvrez votre navigateur et accédez à l'adresse où vous avez cloné le projet, par exemple : `http://localhost/votre_repo`.
+Ouvrez votre navigateur et accédez à l'adresse où vous avez cloné le projet, par exemple : `http://localhost`.
 
 Utilisez les options de filtrage et de tri pour naviguer dans vos projets locaux.
 
