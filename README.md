@@ -1,6 +1,6 @@
 # Gestionnaire de Projets Locaux
 
-Ce projet est une application web PHP simple qui permet de naviguer dans les fichiers et dossiers d'un répertoire spécifique sur le serveur. Il offre des fonctionnalités de tri et de filtrage pour faciliter la recherche et l'organisation des projets locaux.
+Ce projet est une application web PHP simple qui permet de naviguer dans les fichiers et dossiers d'un répertoire spécifique sur le serveur. Il offre des fonctionnalités de tri et de filtrage pour faciliter la recherche et l'organisation des projets locaux. Elle est toujours en cours de développement.
 
 ## Fonctionnalités
 
